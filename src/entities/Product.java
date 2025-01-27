@@ -33,7 +33,7 @@ public class Product {
         StringBuilder sb = new StringBuilder();
         sb.append(name);
         sb.append(", $").append(String.format("%.2f", price));
-        sb.append(", Quantity: ").append(qua);
+        sb.append(", Quantity: ").append(Oqu);
         return sb.toString();
     }
 
